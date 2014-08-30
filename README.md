@@ -23,6 +23,10 @@ HoldPlease::NoCallbacks: You really shouldn't use ActiveRecord callbacks
 
 Add the gem to your Gemfile.
 
+```ruby
+gem "hold-please"
+```
+
 ## Usage
 
 You don't have to do anything—just don't use ActiveRecord callbacks. If someone does, an exception will be raised letting them know they've done a bad thing. Callbacks used from within gems will continue to work as normal—an exception will only be raised if a callback is used from inside the app.
