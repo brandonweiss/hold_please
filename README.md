@@ -24,7 +24,7 @@ HoldPlease::NoCallbacks: You really shouldn't use ActiveRecord callbacks
 Add the gem to your Gemfile.
 
 ```ruby
-gem "hold-please"
+gem "hold_please"
 ```
 
 ## Usage
@@ -41,7 +41,7 @@ Also infinite thanks to [Avand](http://avandamiri.com), as always, for brainstor
 
 ## Contributing
 
-1. Fork it ( http://github.com/brandonweiss/hold-please/fork )
+1. Fork it ( http://github.com/brandonweiss/hold_please/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)

@@ -4,13 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "hold_please/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "hold-please"
+  spec.name          = "hold_please"
   spec.version       = HoldPlease::VERSION
   spec.authors       = ["Brandon Weiss"]
   spec.email         = ["brandon@anti-pattern.com"]
   spec.summary       = %q{Disable ActiveRecord callbacks}
   spec.description   = %q{Raises an exception if an ActiveRecord callback is used. Won't interfere with usage from within other gems.}
-  spec.homepage      = "https://github.com/brandonweiss/hold-please"
+  spec.homepage      = "https://github.com/brandonweiss/hold_please"
   spec.license       = "MIT"
 
   spec.files         = Dir["lib/**/*.rb"] + Dir["test/**/*.rb"]
